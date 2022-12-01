@@ -10,7 +10,7 @@ import { Observable, } from 'rxjs';
 })
 export class UserService {
 
-  // private apiURL = 'https://reqres.in/api/users';
+   //private apiURL = 'https://reqres.in/api/users';
   private apiURL = 'http://localhost:5000/users';
 
   constructor(private http: HttpClient) { }
